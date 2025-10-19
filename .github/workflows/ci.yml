@@ -3,9 +3,9 @@ name: Node CI
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   lint:
