@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - master
+      - PREVIEW
   pull_request:
-    branches: [master]
+    branches: [master ,  PREVIEW]
 
 jobs:
   lint:
